@@ -1,58 +1,58 @@
-  img {
-    padding: 10px;
+img {
+  padding: 10px;
 }
 .col {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 .overlay {
-    position: absolute;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: pink;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: pink;
 }
 .col:hover .overlay {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 #aboutimage {
-  border-radius: 100%;
-   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 200%;
+border-radius: 100%;
+ display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 200%;
 }
 .about-text{
-  margin-left: auto;
-  margin-right: auto;
-  color: black;
-  text-align: center;
-  width: 70%;
+margin-left: auto;
+margin-right: auto;
+color: black;
+text-align: center;
+width: 70%;
 }
 p {text-align: left;}
 .PROJECT2 {
-  border: 5px outset red;
-  background-color: lightblue;    
-  text-align: center;
+border: 5px outset red;
+background-color: lightblue;    
+text-align: center;
 }
 body {
-  background-color: #95DBE5FF;
+background-color: #95DBE5FF;
 }
 .nav-item a:hover {
-  color: white!important;
+color: white!important;
 }
 
 
 /* Add blue box outline on hover */
 .nav-item a:hover,
 .nav-item a:focus {
-  outline: 2px solid blue;
-  outline-offset: 2px;
+outline: 2px solid blue;
+outline-offset: 2px;
 }
